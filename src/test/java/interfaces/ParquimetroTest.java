@@ -34,6 +34,10 @@ class ParquimetroTest {
         assertEquals(6, parquimetro.devolve());
     }
 
+    @Test
+    void deveImprimirOTicket(){
+        assertEquals("valor do ticket: 6", parquimetro.emiteTicket());
+    }
 }
 
 
